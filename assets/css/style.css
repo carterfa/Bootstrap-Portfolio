@@ -49,11 +49,10 @@ h1 {
 .footer{
     background: #666666;
     border-top: 8px solid #4aaaa5;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
-    height: 60px;
-    line-height: 60px;
+    height: 3em;
 }
 
 
@@ -92,6 +91,12 @@ form, label{
     margin: 10px;
 }
 
+#form-container{
+    background: white;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
 nav, li, a {
     margin: 4px;
     padding: 4px;
@@ -121,16 +126,20 @@ a:active {
 
 #message{
     background-color: white;
-    width: 50em;
-    padding: .5em;
-    height: 6em;
+    width: 85%;
+    padding: 0em;
+    height: 5em;
     box-sizing: border-box;
+}
+
+.navborder{
+    border: solid 1px #666666;
 }
 
 .textinput{
     background-color: white;
-    width: 50em;
-    padding: .5em;
+    width: 85%;
+    padding: 0em;
     box-sizing: border-box;
 }
 
