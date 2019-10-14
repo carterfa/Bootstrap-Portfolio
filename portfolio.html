@@ -4,29 +4,37 @@
 <head>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <meta charset="utf-8">
-    <title>Contact</title>
+    <title>Portfolio</title>
 </head>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <title>Home</title>
 </head>
 
 <body>
-    <header id="topbar">
-        <div class="container">
-            <h1>Farrah Carter</h1>
-            <nav class="navbar">
-                <li><a href="index.html">About</a>
-                    <a class="active" href="portfolio.html">Portfolio</a>
-                    <a href="contact.html">Contact</a></li>
-            </nav>
+    <header class="container">
+        <div class="row">
+            <div class="col-4" id="headertext">
+                <h1>Farrah Carter</h1>
+            </div>
         </div>
+        <div class="row" id="navbar">
+            <div class="col-4">
+                <a href="index.html">About</a>
+            </div>
+            <div class="col-4">
+                <a href="portfolio.html">Portfolio</a></div>
+            <div class="col-4">
+                <a class="active" href="contact.html">Contact</a></div>
+            </div>
     </header>
+
     <div class="content">
         <div class="gallery">
             <div class="imgholder">
@@ -61,7 +69,7 @@
                 </div>
         </div>
     </div>
-    <footer>
-        <h3>Copyright &copy;</h3>
+    <footer class="footer">
+        <div class="container"><span><h3>Copyright &copy;</h3></span></div>
     </footer>
 </body>
